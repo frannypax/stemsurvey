@@ -97,7 +97,7 @@ $(document).ready(function() {
                         // Put the name in a header.
                         var nameHeader = $('<h3>').text(name);
                         // Add a photo with an 'src' of the photoURL submitted.
-                        var photo = $('<img>').attr('src', photoURL);
+                        var photo = $('<img>').attr('src', photo);
                         profileDiv.append(nameHeader, photo);
 
                         // Add these items to the modal.
